@@ -20,7 +20,7 @@ ELSEIF [Gender] = '2' then 'FEMALE' END). After this calculation we needed to we
 From the visualization we can see that people are most active on weekday mornings from 8am to 9am and weekday afternoon to evening from 5pm to 6pm. This makes sense considering biking may be an efficient way to navtigate the Downtown environment while traffic is at its peak.
 [link to third and fourth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
 
-The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. 
+The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visua;ization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition I added Usertype" and "GC" to the filters section. 
 [link to fifth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
 
 The sixth result showed us how much each bike had been used and which ones were most likley to need maintenance.
