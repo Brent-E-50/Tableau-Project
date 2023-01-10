@@ -6,11 +6,11 @@ The purpose of this analysis was to visualize data regarding a bike-sharing comp
 
 
 ### Results
-The first result was to show how long bikes are checked out for. I did this by creating a line chart with "Hour(TripDuration)" and "Minute(TripDuration)" in our columns section and "CNT-citibike-tripdata.csv" in our rows section. I added "Hour(TripDuration)" to the filters section so I can filter to see how long users used the equipment. 5-minute trips seem to be the sweet spot for trip durations.
+The first result displayed long bikes are checked out for. I did this by creating a line chart with "Hour(TripDuration)" and "Minute(TripDuration)" in our columns section and "CNT-citibike-tripdata.csv" in our rows section. I added "Hour(TripDuration)" to the filters section so I can filter to see how long users used the equipment. 5-minute trips seem to be the sweet spot for trip durations.
 
 [Chart 1](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimes/CheckoutTimesforUsers?publish=yes)
 
-The second result was to show how long trip durations were based on gender. I did this by dragging the bike count to the "Rows" section, trip duration information to the "Columns" section, "Hours" and "Genders" to the "filters" section, and "Genders" info in the "Color" section of our "Marks" Section. The most frequent time duration for male users was 5 minutes and the most frequent trip duration for female users was actually 6 minutes.
+The second result showed how long trip durations were based on gender. I did this by dragging the bike count to the "Rows" section, trip duration information to the "Columns" section, "Hours" and "Genders" to the "filters" section, and "Genders" info in the "Color" section of our "Marks" Section. The most frequent time duration for male users was 5 minutes and the most frequent trip duration for female users was actually 6 minutes.
 
 [Chart 2](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimesbygender/CheckoutTimesbyGender)
 
@@ -18,7 +18,7 @@ The third and fourth results showed us which days people were most active based 
 
 [Charts 3 and 4](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
 
-The fifth result showed us the number of bike trips taken by gender for each day of the week by each "Usertype". One discovery I made was that Customers that didn't identify with were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visualization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition, I added Usertype" and "GC" to the filters section. And Finally I was able to drag "CNT-citibike-tripdata.csv" to the "Color" Section.
+The fifth result showed us the number of bike trips taken by gender for each day of the week by "Usertype". One discovery I made was that customers that didn't identify were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visualization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition, I added Usertype" and "GC" to the filters section. And Finally I was able to drag "CNT-citibike-tripdata.csv" to the "Color" Section.
 
 [Chart 5](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
 
