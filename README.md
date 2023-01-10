@@ -20,30 +20,9 @@ ELSEIF [Gender] = '2' then 'FEMALE' END). After this calculation we needed to we
 From the visualization we can see that people are most active on weekday mornings from 8am to 9am and weekday afternoon to evening from 5pm to 6pm. This makes sense considering biking may be an efficient way to navtigate the Downtown environment while traffic is at its peak.
 [link to third and fourth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
 
-The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visua;ization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition I added Usertype" and "GC" to the filters section. 
+The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visua;ization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition I added Usertype" and "GC" to the filters section. And Finally I was able to drag "CNT-citibike-tripdata.csv" to the "Color" Section. 
 [link to fifth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
 
-The sixth result showed us how much each bike had been used and which ones were most likley to need maintenance.
-This helps us be proactive in preventing people from using bikes that are not prepared for usage. This also has the potential to prevent injuries and other things that can hurt the brand. 
-[link to fifth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/bikesneedingrepair/Maintenance)
-
-The seventh result was used to show the most popular start locations predicated on gender. We used size to make the visualization easier to read. 
-Since we have this information we can make our services more appealing to each gender by having bikes available at the location where they are most likely to start riding. 
-![187202D1-8D7E-4A5F-8364-61D01D080AD5](https://user-images.githubusercontent.com/112785655/209229644-8e1d510e-e873-4b04-95cc-d1804f99de30.jpeg)
-
-### Summary
-We can conclude that people were most likely to ride the bikes for around 5 minutes. Secondly we can conclude that men and women ride bikes for similar amounnts of time when they use the service. Third and fourthly we can conclude that both gender are most active around 8am and 6pm on thursdays. We can also conclude that the buisness gets most of its transactions from male Subscribers. My first recomendation would be to add a chart that tells us which bikes were used the most for maintenance purposes. My secoond recommendation was to add a chart that would highlight starting locations based on gender for making units more accesssible to all genders. 
+Below is a dashboard that consists of all 5 visualizations
 
 [link to dashboard](https://public.tableau.com/app/profile/brenton.ervin/viz/Dashboard1_16717560803090/Dashboard1)
-
-[link to first chart](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimes/CheckoutTimesforUsers?publish=yes)
-
-[link to second chart](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimesbygender/CheckoutTimesbyGender)
-
-[link to third chart](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
-
-[link to fourth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
-
-[link to fifth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/bikesneedingrepair/Maintenance)
-
-[link to sixth chart](https://public.tableau.com/app/profile/brenton.ervin/viz/Startlocationsbygender/Startlocationsbygender)
