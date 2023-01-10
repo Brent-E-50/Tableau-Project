@@ -1,11 +1,11 @@
 # Tableau-Project
 
 # bikesharing
-###Overview
+### Overview
 The purpose of this analysis was to visualize data regarding a bike-sharing company and to convince investors that opening another location would be a wise decision. To do that I needed to display how frequently people utilize the current bike-sharing services. With the Visualizations created, I can effectively show investors what they need to know to decide whether or not they want to invest in the company. The visualizations that I created show when people are most active and how long their trips are. The visualizations also show the differences in activity between genders. This gives the investors as well as the business great insight so they can plan and act accordingly. Potentially this could mean knowing when to deploy maintenance operations or knowing what audiences they need to market their services to more. The information I can extract from the visualizations is beneficial to both parties in this case.
 
 
-###Results
+### Results
 The first result was to show how long bikes are checked out for. I did this by creating a line chart with "Hour(TripDuration)" and "Minute(TripDuration)" in our columns section and "CNT-citibike-tripdata.csv" in our rows section. I added "Hour(TripDuration)" to the filters section so I can filter to see how long users used the equipment. 5-minute trips seem to be the sweet spot for trip durations.
 [link to chart 1](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimes/CheckoutTimesforUsers?publish=yes)
 
@@ -18,6 +18,7 @@ The third and fourth results showed us which days people were most active based 
 The fifth result showed us the number of bike trips taken by gender for each day of the week by each "Usertype". One discovery I made was that Customers that didn't identify with were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. I was able to create this visualization by adding "GC" or "Number to string" to the columns section. I added "Usertype" and "WEEKDAY(Starttime)" to the rows section. In addition, I added Usertype" and "GC" to the filters section. And Finally I was able to drag "CNT-citibike-tripdata.csv" to the "Color" Section.
 [link to chart 5](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
 
+### Dashboard
 Below is a dashboard that consists of all 5 visualizations
 
 [link to dashboard](https://public.tableau.com/app/profile/brenton.ervin/viz/Dashboard1_16717560803090/Dashboard1)
