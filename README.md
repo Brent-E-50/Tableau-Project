@@ -23,6 +23,6 @@ The fifth result showed us the number of bike trips taken by gender for each day
 [link to chart 5](https://public.tableau.com/app/profile/brenton.ervin/viz/userTripsbygenderbyweekday/UserTripsbyGenderbyweekday)
 
 ### Dashboard
-Below is a dashboard that consists of all 5 visualizations
+Below is a dashboard that contains all 5 of the above visualizations
 
 [link to dashboard](https://public.tableau.com/app/profile/brenton.ervin/viz/Dashboard1_16717560803090/Dashboard1)
