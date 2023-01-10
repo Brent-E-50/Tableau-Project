@@ -14,7 +14,7 @@ The second result was to show how long trip durations were based on gender. We d
 [link to second chart](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimesbygender/CheckoutTimesbyGender)
 
 The third and fourth result showed us which days people were most active on based on gender. From the visualization we can see that people are most active 
-weekday mornings around 7am to 8am and weekday evenings going from afternoon to evening - 5pm to 6pm. This makes sense considering biking may be an efficient method of navtigating the Downtown environment while traffic is at its peak.
+weekday mornings around 8am to 9am and weekday evenings going from afternoon to evening from 5pm to 6pm. This makes sense considering biking may be an efficient method of navtigating the Downtown environment while traffic is at its peak.
 [link to third chart](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
 
 The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. 
