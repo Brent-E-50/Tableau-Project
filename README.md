@@ -7,6 +7,7 @@ The purpose of this analysis was to visualize data regarding a bike-sharing comp
 
 ### Results
 The first result was to show how long bikes are checked out for. I did this by creating a line chart with "Hour(TripDuration)" and "Minute(TripDuration)" in our columns section and "CNT-citibike-tripdata.csv" in our rows section. I added "Hour(TripDuration)" to the filters section so I can filter to see how long users used the equipment. 5-minute trips seem to be the sweet spot for trip durations.
+
 [link to chart 1](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimes/CheckoutTimesforUsers?publish=yes)
 
 The second result was to show how long trip durations were based on gender. I did this by dragging the bike count to the "Rows" section, trip duration information to the "Columns" section, "Hours" and "Genders" to the "filters" section, and "Genders" info in the "Color" section of our "Marks" Section. The most frequent time duration for male users was 5 minutes and the most frequent trip duration for female users was actually 6 minutes.
