@@ -13,8 +13,7 @@ count of citibikes in our rows section. We are able to filter by hour to see how
 The second result was to show how long trip durations were based on gender. We did this by dragging the bike count to the "Rows" section, trip duration information to the "Columns" section, "Hours" and "Genders" to the "filters" section and "Genders" info in the "Color" section of our "Marks" Section. The most frequent time duration for males was 5 minutes and the most frequent duration for females was also 5 minutes but the females had a significantly smaller sample size.
 [link to second chart](https://public.tableau.com/app/profile/brenton.ervin/viz/checktimesbygender/CheckoutTimesbyGender)
 
-The third and fourth result showed us which days people were most active on based on gender. From the visualization we can see that people are most active 
-weekday mornings around 8am to 9am and weekday evenings going from afternoon to evening from 5pm to 6pm. This makes sense considering biking may be an efficient method of navtigating the Downtown environment while traffic is at its peak.
+The third and fourth result showed us which days people were most active on based on gender. From the visualization we can see that people are most active on weekday mornings from 8am to 9am and weekday afternoon to evening from 5pm to 6pm. This makes sense considering biking may be an efficient way to navtigate the Downtown environment while traffic is at its peak.
 [link to third chart](https://public.tableau.com/app/profile/brenton.ervin/viz/tripsbyweekdayhrgender/TripsbyweekdayhrGender)
 
 The fifth result showed us the amount of bike trips taken by gender for each day of the week by each Usertype. One discovery I made was that Customers that didn't identify with a gender were most active on Saturdays while subscribers were most likely to be men who were active on Thursdays. 
